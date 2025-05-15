@@ -8,8 +8,8 @@ app.get('/proxy-login', async (req, res) => {
   try {
     const response = await axios.post('http://api-backoffice-admin.test/api/v1/endpoint',
       {
-        user_id: 'nahid.hasan',
-        user_pass: 'password1234'
+        user_id: '',
+        user_pass: ''
       },
       {
         headers: {
